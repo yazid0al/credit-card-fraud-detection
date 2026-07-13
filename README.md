@@ -17,7 +17,7 @@ Because fraudulent transactions are extremely rare, traditional supervised class
 3. **Model Training:** Trained a One-Class SVM to learn the boundaries of "normal" behavior, flagging deviations as potential fraud. 
 
 ## Hyperparameter Tuning
-Extensive hyperparameter tuning was conducted to balance the trade-off between precision and recall[cite: 1]. The optimal parameters were found to be:
+Extensive hyperparameter tuning was conducted to balance the trade-off between precision and recall. The optimal parameters were found to be:
 * `nu` = 0.01
 * `gamma` = 0.01
 
